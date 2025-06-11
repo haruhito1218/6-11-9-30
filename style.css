@@ -1,0 +1,103 @@
+@charset "UTF-8";
+html{
+    font-size: 100%;
+}
+
+body{
+    line-height: 1.7;
+}
+
+h1{
+    font-family: cursive;
+    width: 400px;
+    color: purple;
+    margin: 20px;
+    padding-left: 10px;
+    border-bottom: rgb(2, 0, 2) 5px double;
+    text-align: center;
+    background: rgba(253, 0, 253, 0.196);
+}
+
+h2{
+    color: purple;
+    border-bottom: purple 5px dotted ;
+    display: inline-block;
+}
+
+.container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+
+.side-menu{
+    width: 25%;
+    padding: 10px;
+    margin: 10px 10px 10px 0;
+    background-color: plum;
+    min-width: 200px;
+    max-width: 250px;
+}
+
+.main-contents{
+    width: 75%;
+    padding: 10px;
+}
+
+.menu{
+    color: purple;
+    font-family: cursive;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.menu-table td{
+    width: 100%;
+    font-size: 1.2rem;
+    border-bottom:purple solid 2px;
+}
+
+.menu-a{
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: purple;
+}
+
+.item{
+    text-align: center;
+    padding: auto;
+}
+
+.big_itemL{
+    grid-column: 1/4;
+    padding: 15px;
+    min-width: 200px;
+}
+
+.big_itemR{
+    grid-column: 2/5;
+    padding: 15px;
+    min-width: 200px;
+}
+
+.bird-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.bird-photo{
+    width: 200px;
+}
+
+footer{
+    border-top: 2px black solid;
+}
+.left{
+    float:left;
+}
+
+
